@@ -48,4 +48,4 @@ WHERE price < 20000 OR price > 80000;
 SELECT id, name, price
 FROM products
 WHERE is_active = true
-  AND price < 3000 OR price > 150000;
+  AND (price < 3000 OR price > 150000);
